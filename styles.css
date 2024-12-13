@@ -1,0 +1,93 @@
+:root {
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 2px solid red;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.header {
+    width: 100%;
+}
+.contact,
+.header {
+    display: flex;
+}
+.contact_space_between {
+    justify-content: space-between;
+}
+.header_space_around {
+    justify-content: space-around;
+}
+.header__content {
+    flex: 3;
+}
+.logo {
+    flex: 1;
+    width: 25%;
+    height: auto;
+}
+.header__title {
+    text-align: center;
+}
+.summery {
+}
+.summery__content {
+}
+.skill__contents {
+    width: 100%;
+    display: flex;
+    padding: 0 2em;
+}
+.skill__content {
+    width: calc(100% / 3);
+    /* margin-left: 3em; */
+}
+.skill_content {
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    flex: 1;
+    padding-inline: 1em;
+}
+.workexp {
+}
+.workexp__contents {
+    margin-left: 2em;
+}
+.workexp__content {
+    display: flex;
+}
+.workexp__title {
+}
+.workexp__discription {
+    flex: 3;
+    padding: 2em;
+}
+.workexp_title_content {
+    flex: 1;
+}
+.projects {
+}
+.project__title {
+}
+.project__contents {
+    padding: 1em 2em;
+}
+.project__content {
+}
+.project_title_content {
+}
+.project_content_description,
+.project_content_summary {
+    margin-left: 1em;
+}
+.project_content_description {
+}
+.project_content_summary {
+}
