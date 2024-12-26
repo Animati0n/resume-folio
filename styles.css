@@ -42,7 +42,6 @@ body {
 }
 .skill__contents {
     width: 100%;
-    /* display: flex; */
     padding: 0 2em;
 }
 .skill__content {
@@ -50,8 +49,6 @@ body {
 }
 .skill_content {
     width: 100%;
-    margin: 0;
-    list-style-type: none;
     padding-inline: 1em;
     display: flex;
 }
